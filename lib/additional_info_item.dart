@@ -29,7 +29,7 @@ class AdditionalInfoItem extends StatelessWidget {
         ),
         Text(
           value,
-          style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+          style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
         )
       ],
     );
